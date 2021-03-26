@@ -12,6 +12,8 @@ This project exists to serve coding students curious about their path into the w
 
 Of note: This website evaluates students for only the following languages: Ruby, React, and Swift.
 
+See the website on [GitHub Pages](http://jonathanstull.github.io/my-languages).
+
 ## Setup/Installation Requirements
 
 Software requirements (internet browser, code editor, etc.)
