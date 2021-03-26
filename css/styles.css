@@ -1,14 +1,8 @@
+/* Global styling */
+
 body {
   background-color: #F5F9E9;
   font-family: 'Montserrat', sans-serif;
-}
-
-header {
-  background-color: #201528;
-  color: #F5F9E9;
-  font-family: 'Dela Gothic One', cursive;
-  height: auto;
-  max-width: 100%;
 }
 
 a {
@@ -20,6 +14,23 @@ a:hover {
   color: #8789C0;
   text-decoration: underline;
 }
+
+header {
+  background-color: #201528;
+  color: #F5F9E9;
+  font-family: 'Dela Gothic One', cursive;
+  height: auto;
+  max-width: 100%;
+}
+
+img {
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+  display: block;
+}
+
+/* Element styling */
 
 #header h1 {
   padding: 50px;
