@@ -23,24 +23,27 @@ $(document).ready(function() {
       $("#form-score").text(languageScore)
       $(".language-result").text(messageRuby)
       $("#form-results").text(reasonWhy)
-      $("#form-feedback").show()
-      $("#ruby-resources").show()
+      $("#language-test").fadeToggle()
+      $("#form-feedback").fadeToggle()
+      $("#ruby-resources").fadeToggle()
 
     } else if (languageScore > 40 && languageScore < 60) {
       $("#form-score").text(languageScore)
       $(".language-result").text(messageReact)
       $("#tester-name").text(testerName)
       $("#form-results").text(reasonWhy)
-      $("#form-feedback").show()
-      $("#react-resources").show()
+      $("#language-test").fadeToggle()
+      $("#form-feedback").fadeToggle()
+      $("#ruby-resources").fadeToggle()
 
     } else if (languageScore >= 60) {
       $("#tester-name").text(testerName)
       $("#form-score").text(languageScore)
       $(".language-result").text(messageSwift)
       $("#form-results").text(reasonWhy)
-      $("#form-feedback").show()
-      $("#swift-resources").show()
+      $("#language-test").fadeToggle()
+      $("#form-feedback").fadeToggle()
+      $("#ruby-resources").fadeToggle()
     }
     
     event.preventDefault()
