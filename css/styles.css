@@ -1,9 +1,32 @@
-h1 {
-  margin: 30px 0;
+body {
+  background-color: #F5F9E9;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #201528;
+  color: #F5F9E9;
+  font-family: 'Dela Gothic One', cursive;
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  color: #8789C0;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #8789C0;
+  text-decoration: underline;
+}
+
+#header h1 {
+  padding: 50px;
 }
 
 #language-test {
-  margin: 30px 0 50px;
+  margin: 30px;
 }
 
 #name {
@@ -25,7 +48,7 @@ h1 {
 }
 
 .required {
-  color: red;
+  color: #EF5B5B;
 }
 
 #reason-why {
@@ -35,7 +58,8 @@ h1 {
 }
 
 #btn {
-  background-color: teal;
+  background-color: #201528;
+  color: #F5F9E9;
 }
 
 #form-score {
@@ -44,6 +68,10 @@ h1 {
 
 .language-result {
   font-weight: bold;
+}
+
+#resources {
+  margin: 0 0 40px 0;
 }
 
 #ruby-resources {
@@ -56,4 +84,16 @@ h1 {
 
 #swift-resources {
   display: none;
+}
+
+footer {
+  background-color: #201528;
+  color: #F5F9E9;
+  font-family: 'Comfortaa', cursive;
+  font-size: 0.7em;
+  font-weight: bold;
+  height: auto;
+  margin: 80px 0 0 0;
+  padding: 20px;
+  text-align: center;
 }
