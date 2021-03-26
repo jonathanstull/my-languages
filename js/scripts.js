@@ -1,45 +1,41 @@
 // Business logic
 
-function languageScore(eggKindVal, residenceVal, shoutVal, affilVal, traitVal) {
-  return eggKindVal + residenceVal + shoutVal + affilVal + traitVal
-}
+const messageRuby = "Ruby"
+const messageReact = "React"
+const messageSwift = "Swift"
 
-const ruby = "Ruby"
-const react = "React"
-const swift = "Swift"
+// User interface logic
 
-// User experience logic
-
-$(document).ready(function(event) {
-  $("language-test").submit(function() {
+$(document).ready(function() {
+  $("#language-test").submit(function() {
+    const reasonWhy = $("#reason-why").val()
+    
     const eggKindVal = parseInt($("input:radio[name=egg-kind]:checked").val())
     const residenceVal = parseInt($("input:radio[name=residence]:checked").val())
     const shoutVal = parseInt($("input:radio[name=shout]:checked").val())
     const affilVal = parseInt($("input:radio[name=affil]:checked").val())
     const traitVal = parseInt($("input:radio[name=trait]:checked").val())
-    const languageScore = languageScore(eggKindVal, residenceVal, shoutVal, affilVal, traitVal)
-
-    const reasonWhy = ($("p#form-results").text("reason-why")
+    const languageScore = eggKindVal + residenceVal + shoutVal + affilVal + traitVal
 
     if (languageScore <= 40) {
       // Ruby, this happens
       
       $("#form-score").text(languageScore)
-      $("#language-result").text(ruby)
+      $("#language-result").text(messageRuby)
       $("#form-results").text(reasonWhy)
 
     } else if (languageScore > 40 && languageScore < 60) {
       // React, this happens
 
       $("#form-score").text(languageScore)
-      $("#language-result").text(react)
+      $("#language-result").text(messageReact)
       $("#form-results").text(reasonWhy)
 
     } else if (languageScore >= 60) {
       // Swift, this happens
 
       $("#form-score").text(languageScore)
-      $("#language-result").text(swift)
+      $("#language-result").text(messageSwift)
       $("#form-results").text(reasonWhy)
     }
     
