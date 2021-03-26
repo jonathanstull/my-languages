@@ -30,6 +30,18 @@ img {
   display: block;
 }
 
+footer {
+  background-color: #201528;
+  color: #F5F9E9;
+  font-family: 'Comfortaa', cursive;
+  font-size: 0.7em;
+  font-weight: bold;
+  height: auto;
+  margin: 80px 0 0 0;
+  padding: 20px;
+  text-align: center;
+}
+
 /* Element styling */
 
 #header h1 {
@@ -95,16 +107,4 @@ img {
 
 #swift-resources {
   display: none;
-}
-
-footer {
-  background-color: #201528;
-  color: #F5F9E9;
-  font-family: 'Comfortaa', cursive;
-  font-size: 0.7em;
-  font-weight: bold;
-  height: auto;
-  margin: 80px 0 0 0;
-  padding: 20px;
-  text-align: center;
 }
