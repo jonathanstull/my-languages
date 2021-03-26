@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Your Career Counselor</title>
+</head>
+<body>
+  <div class="container">
+    <div class="heading">
+      <!-- add monkey image here, time permitting -->
+      <h1>Enough Monkey Business</h1>
+      <p>
+        Are you ready for a serious and gainful career? Well stop throwing your potential out the window like a damn, dirty ape. Answer a few simple questions&mdash;do you like cheese? What kind of animal would you be? <em>Can you recite the national anthem backwards??</em>&mdash;and this highly intelligent test will tell you whether and which programming language is right for you.
+        </p>
+    </div>
+    <form id="languageTest">
+      <div id="question1">
+        <p class="question">How do you like your eggs?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="eggKind" value="sunny" checked>
+            Sunny side up
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="eggKind" value="trash">
+            In the trash
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="eggKind" value="hatching">
+            Hatching
+          </label>
+        </div>
+      </div>
+
+      <div id="question2">
+        <p class="question">Where would you prefer to live?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="residence" value="van" checked>
+            In a van down by the river
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="residence" value="venice">
+            In Venice, obviously
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="residence" value="elsewhere">
+            Somewhere else
+          </label>
+        </div>
+      </div>
+
+      <div id="question3">
+        <p class="question">Which word most appeals to your ear? Please shout loudly in an enclosed space (e.g., closet, library, your partner's ear) each word before answering.</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="word" value="catatonia" checked>
+            Catatonia (cat·uh·TOE·nee·uh)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="word" value="pentateuch">
+            Pentateuch (PEN·tuh·took)
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="word" value="onomatopoeia">
+            Onomatopoeia (on·uh·mah·tuh·PEE·uh)
+          </label>
+        </div>
+      </div>
+
+      <div id="question4">
+        <p class="question">Are you a:</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="word" value="democrat" checked>
+            Democrat
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="word" value="donkey">
+            Donkey
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="word" value="neither">
+            Neither
+          </label>
+        </div>
+      </div>
+
+      <div id="question5">
+        <p class="question">Choose the answer that most applies. Your friends would describe you as:</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="word" value="disciplined" checked>
+            Disciplined
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="word" value="unscrupulous">
+            Unscrupulous
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="word" value="persnickity">
+            Persnickity
+          </label>
+        </div>
+        <div id="reasoning">
+          <label for="reasonWhy">Please explain why this is true.</label>
+          <input id="reasonWhy" type="text">
+        </div>
+      </div>
+    </form>
+
+    <div id="form-feedback">
+      <p id="form-results"></p>
+    </div>
+  </div>
+</body>
+</html>
