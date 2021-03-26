@@ -19,7 +19,11 @@
     </div>
     <form id="language-test">
       <div class="question">
-        <p class="question">1. How do you like your eggs?</p>
+        <label for="name">Please enter your name:<span class="required">*</span></label>
+        <input id="name" type="text" required>
+      </div>
+      <div class="question">
+        <p>1. How do you like your eggs?</p>
         <div class="radio">
           <label>
             <input type="radio" name="egg-kind" value="5" checked>
@@ -41,7 +45,7 @@
       </div>
 
       <div class="question">
-        <p class="question">2. Where would you prefer to live?</p>
+        <p>2. Where would you prefer to live?</p>
         <div class="radio">
           <label>
             <input type="radio" name="residence" value="5" checked>
@@ -63,7 +67,9 @@
       </div>
 
       <div class="question">
-        <p class="question">3. Which word most appeals to your ear? Please shout each word loudly in an enclosed space (e.g., closet, bedroom, telephone booth) before answering.</p>
+        <p>
+          3. Which word most appeals to your ear? Please shout each word loudly in an enclosed space (e.g., closet, bedroom, telephone booth) before answering.
+        </p>
         <div class="radio">
           <label>
             <input type="radio" name="shout" value="5" checked>
@@ -85,7 +91,7 @@
       </div>
 
       <div class="question">
-        <p class="question">4. You most identify with:</p>
+        <p>4. You most identify with:</p>
         <div class="radio">
           <label>
             <input type="radio" name="affil" value="5" checked>
@@ -107,7 +113,7 @@
       </div>
 
       <div class="question">
-        <p class="question">5. Your friends would describe you as:</p>
+        <p>5. Your friends would describe you as:</p>
         <div class="radio">
           <label>
             <input type="radio" name="trait" value="5" checked>
@@ -138,7 +144,7 @@
     <div id="form-feedback">
       <h2>Congratulations!</h2>
       <p>
-        You scored <span id="form-score"></span>. You should choose to program in <span class="language-result"></span>.
+        <span id="tester-name"></span>, you scored <span id="form-score"></span>. You should choose to program in <span class="language-result"></span>.
       </p>
       <p>
         But guess what: It doesn't matter! You already have everything you need to figure it out for yourself. Straight from the monkey's mouth: "<span id="form-results"></span>"

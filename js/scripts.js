@@ -9,6 +9,7 @@ const messageSwift = "Swift"
 $(document).ready(function() {
   $("#language-test").submit(function() {
     const reasonWhy = $("#reason-why").val()
+    const testerName = $("#name").val()
     
     const eggKindVal = parseInt($("input:radio[name=egg-kind]:checked").val())
     const residenceVal = parseInt($("input:radio[name=residence]:checked").val())
@@ -18,6 +19,7 @@ $(document).ready(function() {
     const languageScore = eggKindVal + residenceVal + shoutVal + affilVal + traitVal
 
     if (languageScore <= 40) {      
+      $("#tester-name").text(testerName)
       $("#form-score").text(languageScore)
       $(".language-result").text(messageRuby)
       $("#form-results").text(reasonWhy)
@@ -27,11 +29,13 @@ $(document).ready(function() {
     } else if (languageScore > 40 && languageScore < 60) {
       $("#form-score").text(languageScore)
       $(".language-result").text(messageReact)
+      $("#tester-name").text(testerName)
       $("#form-results").text(reasonWhy)
       $("#form-feedback").show()
       $("#react-resources").show()
 
     } else if (languageScore >= 60) {
+      $("#tester-name").text(testerName)
       $("#form-score").text(languageScore)
       $(".language-result").text(messageSwift)
       $("#form-results").text(reasonWhy)
