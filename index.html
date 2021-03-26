@@ -15,8 +15,9 @@
       <p>
         Are you ready for a serious and gainful career? Well stop flinging your potential out the window like a damn, dirty ape. Answer a few simple questions&mdash;do you like cheese? What kind of animal would you be? <em>Can you recite the national anthem backwards??</em>&mdash;and this highly intelligent test will tell you whether and which programming language is right for you.
         </p>
+      <p><span class="required">*</span> <em>Fields marked with an asterisk are required.</em></p>
     </div>
-    <form id="languageTest">
+    <form id="language-test">
       <div class="question">
         <p class="question">How do you like your eggs?</p>
         <div class="radio">
@@ -126,10 +127,12 @@
           </label>
         </div>
         <div class="question">
-          <label for="reason-why">Please explain why this is true.</label>
-          <input id="reason-why" type="text">
+          <label for="reason-why">Please explain why this is true.<span class="required">*</span></label>
+          <input id="reason-why" type="text" required>
         </div>
       </div>
+
+      <button id="btn" type="submit">Submit</button>
     </form>
 
     <div id="form-feedback">
