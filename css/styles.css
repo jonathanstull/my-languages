@@ -28,3 +28,23 @@ h1 {
 #btn {
   background-color: teal;
 }
+
+#form-score {
+  font-weight: bold
+}
+
+.language-result {
+  font-weight: bold;
+}
+
+#ruby-resources {
+  display: none;
+}
+
+#react-resources {
+  display: none;
+}
+
+#swift-resources {
+  display: none;
+}

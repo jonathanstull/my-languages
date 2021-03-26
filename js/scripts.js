@@ -21,25 +21,31 @@ $(document).ready(function() {
       // Ruby, this happens
       
       $("#form-score").text(languageScore)
-      $("#language-result").text(messageRuby)
+      $(".language-result").text(messageRuby)
       $("#form-results").text(reasonWhy)
+      $("#form-feedback").show()
+      $("#ruby-resources").show()
 
     } else if (languageScore > 40 && languageScore < 60) {
       // React, this happens
 
       $("#form-score").text(languageScore)
-      $("#language-result").text(messageReact)
+      $(".language-result").text(messageReact)
       $("#form-results").text(reasonWhy)
+      $("#form-feedback").show()
+      $("#react-resources").show()
 
     } else if (languageScore >= 60) {
       // Swift, this happens
 
       $("#form-score").text(languageScore)
-      $("#language-result").text(messageSwift)
+      $(".language-result").text(messageSwift)
       $("#form-results").text(reasonWhy)
+      $("#form-feedback").show()
+      $("#swift-resources").show()
     }
     
-    $("#form-feedback").show()
+    
 
     event.preventDefault()
   })
