@@ -42,7 +42,7 @@ Open via Bash/GitBash:
 ## Credits and Acknowledgements
 
 * Typefaces used: Dela Gothic One (h1), Montserrat Light 300 (body), Comfortaa (footer)
-* Typefaces chosen with the help of [Google Fonts](https://fonts.google.com/share?selection.family=Comfortaa%7CDela%20Gothic%20One%7CMontserrat:wght@300)
+* Typefaces chosen with the help of [Google Fonts](https://fonts.google.com/share?selection.family=Comfortaa:wght@700%7CDela%20Gothic%20One%7CMontserrat:wght@300;700)
 * This webpage uses the color scheme [Monkey Business](https://coolors.co/201528-8789c0-f5f9e9-c2c1a5-ef5b5b), generated with the help of Coolors.co
 * The header photo belongs to wildlife biologist [Mogens Trolle](https://www.instagram.com/mogenstrolle/). Find the story behind this photo at [caters News Agency](https://www.catersnews.com/stories/animals/huh-photographer-captures-funny-photo-as-muddled-monkey-strikes-a-confused-pose-for-the-camera/)
 
