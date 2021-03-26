@@ -13,33 +13,33 @@
       <!-- add monkey image here, time permitting -->
       <h1>Enough Monkey Business</h1>
       <p>
-        Are you ready for a serious and gainful career? Well stop throwing your potential out the window like a damn, dirty ape. Answer a few simple questions&mdash;do you like cheese? What kind of animal would you be? <em>Can you recite the national anthem backwards??</em>&mdash;and this highly intelligent test will tell you whether and which programming language is right for you.
+        Are you ready for a serious and gainful career? Well stop flinging your potential out the window like a damn, dirty ape. Answer a few simple questions&mdash;do you like cheese? What kind of animal would you be? <em>Can you recite the national anthem backwards??</em>&mdash;and this highly intelligent test will tell you whether and which programming language is right for you.
         </p>
     </div>
     <form id="languageTest">
-      <div id="question1">
+      <div class="question">
         <p class="question">How do you like your eggs?</p>
         <div class="radio">
           <label>
-            <input type="radio" name="eggKind" value="sunny" checked>
+            <input type="radio" name="egg-kind" value="sunny" checked>
             Sunny side up
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="eggKind" value="trash">
+            <input type="radio" name="egg-kind" value="trash">
             In the trash
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="eggKind" value="hatching">
+            <input type="radio" name="egg-kind" value="hatching">
             Hatching
           </label>
         </div>
       </div>
 
-      <div id="question2">
+      <div class="question">
         <p class="question">Where would you prefer to live?</p>
         <div class="radio">
           <label>
@@ -61,7 +61,7 @@
         </div>
       </div>
 
-      <div id="question3">
+      <div class="question">
         <p class="question">Which word most appeals to your ear? Please shout loudly in an enclosed space (e.g., closet, library, your partner's ear) each word before answering.</p>
         <div class="radio">
           <label>
@@ -83,57 +83,58 @@
         </div>
       </div>
 
-      <div id="question4">
-        <p class="question">Are you a:</p>
+      <div class="question">
+        <p class="question">Choose the answer that most applies. Are you a:</p>
         <div class="radio">
           <label>
-            <input type="radio" name="word" value="democrat" checked>
+            <input type="radio" name="affil" value="democrat" checked>
             Democrat
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="word" value="donkey">
+            <input type="radio" name="affil" value="donkey">
             Donkey
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="word" value="neither">
+            <input type="radio" name="affil" value="neither">
             Neither
           </label>
         </div>
       </div>
 
-      <div id="question5">
+      <div class="question">
         <p class="question">Choose the answer that most applies. Your friends would describe you as:</p>
         <div class="radio">
           <label>
-            <input type="radio" name="word" value="disciplined" checked>
+            <input type="radio" name="trait" value="disciplined" checked>
             Disciplined
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="word" value="unscrupulous">
+            <input type="radio" name="trait" value="unscrupulous">
             Unscrupulous
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="word" value="persnickity">
+            <input type="radio" name="trait" value="persnickity">
             Persnickity
           </label>
         </div>
-        <div id="reasoning">
-          <label for="reasonWhy">Please explain why this is true.</label>
-          <input id="reasonWhy" type="text">
+        <div class="question">
+          <label for="reason-why">Please explain why this is true.</label>
+          <input id="reason-why" type="text">
         </div>
       </div>
     </form>
 
     <div id="form-feedback">
-      <p id="form-results"></p>
+      <h2>Congratulations!</h2>
+      <p id="form-results">This is placeholder text.</p>
     </div>
   </div>
 </body>
